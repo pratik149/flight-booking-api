@@ -1,0 +1,37 @@
+/**
+These settings overwrites your VS code's `Default` and `User` setting for this Project.
+
+These are the Recommended VS code settings which every developer contributing to this
+codebase has to follow to maintain consistency.
+
+Please contact your Project Manager before making any changes to this file.
+**/
+
+{
+	"explorer.compactFolders": false,
+    "files.autoSave": "off",
+	"files.eol": "\n",
+    "editor.fontLigatures": true,
+	"[php]": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"intelephense.format.enable": true,
+	"intelephense.diagnostics.undefinedClassConstants": false,
+	"intelephense.diagnostics.undefinedConstants": false,
+	"intelephense.diagnostics.undefinedFunctions": false,
+	"intelephense.diagnostics.undefinedMethods": false,
+	"intelephense.diagnostics.undefinedProperties": false,
+	"intelephense.diagnostics.undefinedSymbols": false,
+	"intelephense.diagnostics.undefinedTypes": false,
+	"intelephense.diagnostics.undefinedVariables": false,
+	"[blade]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "onecentlin.laravel-blade",
+		"editor.autoClosingBrackets": "always"
+	},
+	"blade.format.enable": true
+}
